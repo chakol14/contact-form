@@ -1,0 +1,12 @@
+.content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.content__title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+

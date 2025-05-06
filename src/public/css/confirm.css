@@ -1,0 +1,69 @@
+.content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.content__title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content__inner {
+    padding: 20px 0;
+}
+
+.content__form {
+    padding: 20px 0;
+}
+
+.content__form__table {
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content__form__table table {
+    width: 100%;
+}
+
+.content__form__table__header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.content__form__table__td {
+    padding: 10px 0;
+}
+
+
+.content__form__table__td input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.content__form__button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content__form__button_submit {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+}
+
+.content__form__button_submit:hover {
+    background: #333;
+}
+
+
+
