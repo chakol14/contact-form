@@ -1,0 +1,43 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    border: 1px solid #bdbdbd;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header__logo {
+    color: #c69a79;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: right;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+}
+
+.header__menu-button {
+    background-color: #ededed;
+    color: #c69a79;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #c69a79;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header__menu-button:hover {
+    background-color: #fff;
+    color: #c69a79;
+    border: 1px solid #c69a79;
+}

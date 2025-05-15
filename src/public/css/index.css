@@ -1,0 +1,168 @@
+.contact-form__content {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.contact-form__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form__heading h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #c69a79;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    color: #c69a79;
+}
+
+.form__label--required {
+    margin-left: 1px;
+    padding: 4px 3px;
+    color: #de7373;
+}
+
+.form__input--name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name input {
+    width: 300px;
+    background: #e8e8e8;
+    border: none;
+    height: 40px;
+}
+
+.form__input--text-first {
+    margin-right: 25px;
+}
+
+.form__input--text-first::placeholder {
+    padding-left: 10px;
+    color: #b7b7b7;
+}
+
+
+.form__input--text-last::placeholder {
+    padding-left: 10px;
+    color: #b7b7b7;
+}
+
+.form__input--radio {
+    margin-right: 435px;
+}
+
+.form__input--radio input {
+    margin-right: 10px;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.form__input--radio input:checked {
+    border: 6px solid #c69a79;
+}
+
+.form__input--text input {
+    width: 625px;
+    background: #e8e8e8;
+    border: none;
+    height: 40px;
+}
+
+.form__input--text input::placeholder {
+    padding-left: 10px;
+    color: #b7b7b7;
+}
+
+.form__input--tel input {
+    width: 193px;
+    background: #e8e8e8;
+    border: none;
+    height: 40px;
+}
+
+.form__input--tel input::placeholder {
+    padding-left: 10px;
+    color: #b7b7b7;
+}
+
+.form__input--tel span {
+    margin: 0 5px;
+}
+
+
+.form__input--select-box {
+    width: 300px;
+    background: #e8e8e8;
+    border: none;
+    height: 40px;
+    margin-right: 325px;
+    margin-left: 10px;
+}
+
+.form__input--select-box select {
+    margin-left: 10px;
+}
+
+.form__input--select-box option:first-child {
+    color: #ccc;
+}
+
+.form__input--textarea  textarea{
+    width: 625px;
+    background: #e8e8e8;
+    border: none;
+    height: 140px;
+}
+
+.form__input--textarea  textarea::placeholder {
+    padding-left: 10px;
+    color: #b7b7b7;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    background: #c69a79;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    background: #d1a481;
+}
+
+
+.form__error--alert {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
