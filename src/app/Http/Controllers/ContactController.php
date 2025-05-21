@@ -29,7 +29,8 @@ class ContactController extends Controller
 
     public function admin()
     {
-        return view('admin');
+        $contacts = Contact::simplePaginate(10);
+        return view('admin', compact('contacts'));
     }
 
     public function register()

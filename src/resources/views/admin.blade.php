@@ -40,7 +40,14 @@
             </select>
         </form>
         <form class="form">
-            <input class="form__input--date" type="date" name="date" value="{{ old('date') }}" placeholder="例:2025/01/01" />
+            <label>
+                <style>
+                    input:invalid {
+                        color: #b7b7b7
+                    }
+                </style>
+                <input class="form__input--date" type="date" name="date" value="{{ old('date') }}"  require/>
+            </label>
         </form>
         <form class="form">
             <button class="form__button-search" type="submit">検索</button>
